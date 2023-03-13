@@ -8,8 +8,8 @@ switch ($msg['type']) {
     case 'MT_RECV_TEXT_MSG':
         if ($msg['data']['msg'] == 'ping') {
             sendText($msg['data']['from_wxid'], 'pong');
-        } elseif ($msg['data']['msg'] == '123') {
-            sendText($msg['data']['from_wxid'], '456');
+        } elseif ($msg['data']['msg'] == '1234') {
+            sendText($msg['data']['from_wxid'], '4567');
         }
 }
 
